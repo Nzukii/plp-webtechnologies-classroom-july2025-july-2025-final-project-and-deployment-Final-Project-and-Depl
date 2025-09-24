@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nova Studio — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Nova<span>Studio</span></a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="site-nav" class="nav">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Design & build beautiful, usable web experiences</h1>
+          <p>Freelance design + development. I turn ideas into accessible responsive products.</p>
+          <p><a href="contact.html" class="button">Start a project</a></p>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <img src="images/placeholder-1.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>What I do</h2>
+      <div class="cards">
+        <article class="card" tabindex="0">
+          <h3>Web Design</h3>
+          <p>UX-focused interfaces, cross-browser and accessible.</p>
+        </article>
+        <article class="card" tabindex="0">
+          <h3>Frontend Development</h3>
+          <p>Modern HTML5, CSS3, and JavaScript — component-first.</p>
+        </article>
+        <article class="card" tabindex="0">
+          <h3>Performance & SEO</h3>
+          <p>Optimized assets, semantic markup, and measurable results.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured-work container">
+      <h2>Featured projects</h2>
+      <div class="work-grid">
+        <a href="gallery.html" class="work-card">
+          <img src="images/placeholder-1.jpg" alt="Project screenshot">
+          <div class="work-info">
+            <h3>Product Landing</h3>
+            <p>Landing and checkout flow for a SaaS</p>
+          </div>
+        </a>
+        <a href="gallery.html" class="work-card">
+          <img src="images/placeholder-2.jpg" alt="Project screenshot">
+          <div class="work-info">
+            <h3>Artist Portfolio</h3>
+            <p>Grid gallery and CMS integration</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Nova<span>Studio</span></a>
+        <p>Building accessible and delightful web products.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="small">
+        <p>© <span id="year"></span> Nova Studio</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
